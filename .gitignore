@@ -1,7 +1,7 @@
 ../.idea/workspace.xml
 ../.idea/MIRA_ASSISTANT.iml
 .pytest_cache
-__pycache__/
+__pycache__
 *.log
 *.xml
 dist
