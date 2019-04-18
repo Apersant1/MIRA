@@ -39,17 +39,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mira_test/red_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#1#7#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mira_test/Unit_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mira/mira/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,15 +100,16 @@
         <option value="$PROJECT_DIR$/mira/mira/settings.py" />
         <option value="$PROJECT_DIR$/mira/mira/urls.py" />
         <option value="$PROJECT_DIR$/mira/home/urls.py" />
-        <option value="$PROJECT_DIR$/Mira_test/red_test.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Mira_test/red_test.py" />
+        <option value="$PROJECT_DIR$/Mira_test/Unittest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="993" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="1152" />
+    <option name="width" value="1439" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,6 +128,17 @@
               <item name="MIRA_ASSISTANT" type="b2602c69:ProjectViewProjectNode" />
               <item name="MIRA_ASSISTANT" type="462c0819:PsiDirectoryNode" />
               <item name="mira" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIRA_ASSISTANT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIRA_ASSISTANT" type="462c0819:PsiDirectoryNode" />
+              <item name="mira" type="462c0819:PsiDirectoryNode" />
+              <item name="mira" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIRA_ASSISTANT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIRA_ASSISTANT" type="462c0819:PsiDirectoryNode" />
+              <item name="Mira_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +225,7 @@
       <updated>1555516657081</updated>
       <workItem from="1555516659926" duration="7510000" />
       <workItem from="1555581247526" duration="1661000" />
-      <workItem from="1555582945234" duration="2702000" />
+      <workItem from="1555582945234" duration="4683000" />
     </task>
     <servers />
   </component>
@@ -206,20 +242,23 @@
     <history-entry file="test__red_test_py - 2019.04.18 at 13h 36m 38s.xml">
       <configuration name="test  red_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="test__red_test_py - 2019.04.18 at 14h 31m 41s.xml">
+      <configuration name="test  red_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11873000" />
+    <option name="totallyTimeSpent" value="13854000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="1152" y="0" width="1439" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11747643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3452381" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32334712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -228,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.43502203" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4142562" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -241,7 +280,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MIRA_ASSISTANT$test__red_test_py.coverage" NAME="test  red_test.py Coverage Results" MODIFIED="1555583793001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/MIRA_ASSISTANT$test__red_test_py.coverage" NAME="test  red_test.py Coverage Results" MODIFIED="1555587095912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MIRA_ASSISTANT/settings.py" />
@@ -269,16 +308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mira/mira/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -311,13 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mira_test/red_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mira/home/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -329,6 +351,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mira/mira/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mira_test/red_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#1#7#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mira_test/Unit_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

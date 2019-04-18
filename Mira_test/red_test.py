@@ -1,12 +1,15 @@
 
-
+import pytest
 from selenium import webdriver
 
-
-def test():
+@pytest.fixture
+def browser():
     browser = webdriver.Chrome()
+    yield browser
+    browser.quit()
+
+def test(browser):
     browser.get('http://127.0.01:8000/home/')
-    print(browser.title)
     assert browser.title == 'Привет,я Мира'
 
 
