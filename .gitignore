@@ -1,3 +1,7 @@
-./idea
+../.idea/workspace.xml
 .pytest_cache
 __pycache__/
+*.log
+*.xml
+dist
+*.jar
