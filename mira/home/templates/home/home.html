@@ -3,14 +3,55 @@
 {% load static %}
 <html lang="en">
 <head>
-
-    <link rel="shortcut icon" type="image/png" href="{% static 'media/source_code_32.ico' %} "/>
     <meta charset="UTF-8">
-     <link rel="stylesheet" href="{% static "css/style.css" %}" />
+    <!-- connecing fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+    <!-- connecting fonts -->
+
+    <!-- import favicon-->
+    <link rel="shortcut icon" type="image/png" href="{% static 'media/source_code_32.ico' %} "/>
+     <!-- import favicon-->
+
+    <!-- connecting css styles-->
+    <link rel="stylesheet" href="{% static "css/style.css" %}" />
+    <!-- connecting css styles-->
+
     <title>Привет,я Мира</title>
 
 </head>
 <body>
 
+{% block content %}
+<div class="contacts_info">
+
+    <div class="github">
+
+        <img class="logo_github "   src="{% static 'media/github-logo.svg' %}" alt="git_logo">
+        <a class="open_source" href="https://github.com/Apersant1/MIRA.git">opensource project</a>
+
+    </div>
+
+    <div class="vk">
+
+        <img class="logo_vk "   src="{% static 'media/vk.svg' %}" alt="vk_logo">
+        <a class="open_source" href="https://vk.com/appersant">Creator</a>
+    </div>
+
+
+    <div class="hashtag">
+
+        <p >#MIRA_ASSISTANT</p>
+
+    </div>
+</div>
+
+    <div class="container">
+
+        <nav>Привет,я Мира</nav>
+        <p>Я голосовой ассистент,если хочешь узнать что я могу нажми <a href="#">сюда</a></p>
+</div>
+{% endblock %}
 </body>
 </html>
