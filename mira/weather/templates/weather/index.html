@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+
+    <!-- connecting css styles-->
+    <link rel="stylesheet" href="{% static "css/for_index.css" %}" />
+    <!-- connecting css styles-->
+
+    <title>Погода</title>
+</head>
+<body>
+
+
+
+<div class="container mt- ">
+    <div class="row">
+
+    <div class="col-5 ">
+
+
+<h1>Узнай погоду в своём городу</h1>
+
+
+
+    <form action="" method="post">
+    {% csrf_token %}
+    <label for="city">Город</label>
+        <div class="formo4ka">
+            {{ form.name }}
+        </div>
+    <input type="submit" name="send" value="Submit" class=" button">
+
+    </form>
+
+
+    </div>
+
+       <div class="col-4 offset-2">
+           <h1>Информация о погоде</h1>
+       {%  for info in all_info %}
+
+           <div class="alert alert-danger">
+
+               <div class="row">
+                   <div class="col-9">
+                       <b>Город:</b> {{info.city}}<br>
+                       <b>Температура:</b> {{info.temp}}<sup>o</sup><br>
+               </div>
+                   <div class="col-3">
+                         <img  src="http://openweathermap.org/img/w/{{info.icon}}.png" alt="" class="img-thumbnail">
+                   </div>
+                </div>
+           </div>
+        {%  endfor %}
+
+       </div>
+    </div>
+</div>
+
+</body>
+</html>
