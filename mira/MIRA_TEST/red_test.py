@@ -11,7 +11,7 @@ def browser():
     browser.quit()
 
 def test(browser):
-    browser.get('http://127.0.01:8000/home/')
+    browser.get('http://127.0.01:8000/')
     assert browser.title == 'Привет,я Мира'
 
 class HomePageTest(TestCase):
