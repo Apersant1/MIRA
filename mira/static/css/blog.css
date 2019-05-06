@@ -10,6 +10,7 @@ body{
 
 }
 
+/*Background Gradient*/
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -46,3 +47,17 @@ body{
 		background-position: 0% 50%
 	}
 }
+/*Background Gradient*/
+
+
+/*Logo styles*/
+
+
+.Mira_logo{
+	display: flex;
+
+}
+
+
+
+/*Logo styles*/
