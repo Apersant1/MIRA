@@ -1,8 +1,8 @@
 ../.idea/workspace.xml
 ../.idea/MIRA_ASSISTANT.iml
 .pytest_cache
-mira/home/__pycache__/urls.cpython-37.pyc
 
+/__pycache__/
 *.log
 *.xml
 *.iml
